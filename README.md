@@ -11,12 +11,26 @@ To build u2json you must install the following dependencies:
 
 ## Installation
 
+1. Install with brew.
+
 ```bash
+brew tap wtfbbqhax/homebrew-ap
+brew install u2json
+```
+
+2. Intall from source
+
+```bash
+# git clone https://github.com/wtfbbqhax/libunified2
+# cd libunified2
+# autoreconf -fi
+# ./configure
+# make install
+
 git clone https://github.com/wtfbbqhax/u2json
 cd u2json/
 autoreconf -fi
 ./configure
-make
 make install
 ```
 
