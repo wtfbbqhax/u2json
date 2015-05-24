@@ -32,7 +32,7 @@ CNT is an optional number of records to read from the file `snort-unified.log`.
 
 Omitting CNT will dump the entire file into JSON.
 
-#### Example
+## Examples
 
 Convert a single record to json. (pretty printed with `jq`).
 
