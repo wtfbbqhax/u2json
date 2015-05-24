@@ -135,3 +135,5 @@ u2json/libunified2 have some valgrind warnings
 3. Multiple input file(s)
 
 4. Builtin "query" language to filter logs
+
+5. Support for named pipes (created with `mkfifo`)
